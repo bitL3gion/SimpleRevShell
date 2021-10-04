@@ -14,7 +14,7 @@ int main() {
 	// Call WSAStartup()
 	int WSAStartup_Result = WSAStartup(MAKEWORD(2, 2), &wsaData);
 	if (WSAStartup_Result != 0) {
-		printf("[-] WSAStartup failed.");
+		printf("[-] WSAStartup failed."); 
 		return 1;
 	}
 
